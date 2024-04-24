@@ -7,6 +7,7 @@ ul li {
 .nav {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
+    font-size: 11px;
     line-height: 12.89px;
     margin-top: 21px;
     margin-bottom: 42px;
@@ -25,5 +26,14 @@ ul li {
 
 .navigation-image {
     vertical-align: middle;
+} 
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 28.13px;
+    font-size: 24px;
+    margin-left: 137px;
+    margin-bottom: 27px;
 }
 
