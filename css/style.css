@@ -8,13 +8,13 @@ ul li {
     display: inline-block;
 }
 
-.nav {
+.header-nav {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 11px;
     line-height: 12.89px;
     margin-top: 21px;
-    margin-bottom: 42px;
+    margin-bottom: 20px;
     margin-left: 137px;
 }
 
@@ -37,6 +37,7 @@ h1 {
     font-weight: 700;
     line-height: 28.13px;
     font-size: 24px;
+    margin-top: 22px;
     margin-left: 137px;
     margin-bottom: 27px;
 }
@@ -45,7 +46,7 @@ h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23.44pxpx;
+    line-height: 23.44px;
     color: #FFFFFF;
     position: absolute;
     padding-top: 32px;
@@ -54,6 +55,8 @@ h1 {
 
 .content div {
     background-color: #FFFFFF;
+    border-end-end-radius: 25px;
+    border-end-start-radius: 25px;
     width: 362px;
     height: 171px;
 	padding-top: 70px;
@@ -62,6 +65,8 @@ h1 {
 }
 
 .content p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     color: #8A8787;
     font-size: 10px;
     line-height: 11.72px;
@@ -96,7 +101,6 @@ h1 {
     display: inline-block;
     vertical-align: 76px;
     margin-left: 45px;
-    margin-right: 137px;
 }
 
 .section1 img {
@@ -114,5 +118,73 @@ h1 {
     margin-bottom: 103px;
 }
 
+footer {
+    position: relative;
+    background-color: #243043;
+    width: 1440px;
+    height: 201px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
 
+.footer ul li {
+    display: block;
+}
 
+.footer div {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #818687;
+}
+
+.div1 {
+    position: absolute;
+    top: 59px;
+    left: 138px;
+}
+
+.div2 {
+    position: absolute;
+    top: 59px;
+    left: 270px;
+}
+
+.div3 {
+    position: absolute;
+    top: 59px;
+    left: 405px;
+}
+
+.footer-li {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.footer-p {
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    display: inline-block;
+    top: 59px;
+    left: 599px;
+    color: #FFFFFF;
+}
+
+.footer-img {
+    position: absolute;
+    top: 58px;
+    right: 138px;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1;
+    width: 1440px;
+    z-index: 1;
+}
